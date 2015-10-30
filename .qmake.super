@@ -1,0 +1,8 @@
+QTREPOS += /home/hugo/qt/qt5.git/qtbase
+QMAKEMODULES += /home/hugo/qt/qt5.git/qtbase/mkspecs/modules
+QTREPOS += /home/hugo/qt/qt5.git/qtdeclarative
+QMAKEMODULES += /home/hugo/qt/qt5.git/qtdeclarative/mkspecs/modules
+QTREPOS += /home/hugo/qt/qt5.git/qtwinextras
+QMAKEMODULES += /home/hugo/qt/qt5.git/qtwinextras/mkspecs/modules
+QTREPOS += /home/hugo/qt/qt5.5.1-nuc972/qtbase
+QMAKEMODULES += /home/hugo/qt/qt5.5.1-nuc972/qtbase/mkspecs/modules
