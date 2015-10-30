@@ -1,0 +1,55 @@
+#!/bin/bash
+
+./configure \
+-opensource \
+-confirm-license \
+-debug-and-release \
+-verbose \
+-xplatform linux-arm-nuc970-g++ \
+-device-option CROSS_COMPILE=/usr/local/arm_linux_4.8/bin/arm-linux- \
+-prefix /usr/local/qt5.5.1 \
+-qpa linuxfb \
+-no-xcb \
+-no-c++11 \
+-no-widgets \
+-no-opengl \
+-no-eglfs \
+-no-egl \
+-no-openvg \
+-no-sql-db2 \
+-no-sql-ibase \
+-no-sql-mysql \
+-no-sql-oci \
+-no-sql-odbc \
+-no-sql-psql \
+-no-sql-sqlite \
+-no-sql-sqlite2 \
+-no-sql-tds \
+-no-compile-examples \
+-nomake tests \
+-nomake examples \
+-nomake tools \
+-no-xkb \
+-no-xkbcommon-evdev \
+-no-libjpeg \
+-no-pulseaudio \
+-no-alsa \
+-no-tslib \
+-no-cups \
+-no-libproxy \
+-no-icu \
+-no-libudev \
+-no-sse2 \
+-no-nis \
+-no-glib \
+-no-fontconfig \
+-no-xcb-xlib \
+-no-xinput2 \
+-no-mtdev \
+-no-kms \
+-qt-freetype \
+-no-gstreamer \
+-qt-pcre \
+-no-accessibility
+#-sysroot /home/hugo/ubuntu-12.04-i386/usr/local/arm_linux_4.8/usr/include 
+#-qreal float \
