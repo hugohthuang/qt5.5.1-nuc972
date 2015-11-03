@@ -31,5 +31,5 @@
 **
 ****************************************************************************/
 
-#include "../linux-g++/qplatformdefs.h"
+#include "../../linux-g++/qplatformdefs.h"
 
