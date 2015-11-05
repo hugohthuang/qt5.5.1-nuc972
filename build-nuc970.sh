@@ -16,9 +16,9 @@ fi
 -device linux-arm-nuc970-g++ \
 -device-option CROSS_COMPILE=/usr/local/arm_linux_4.8/bin/arm-linux- \
 -sysroot /usr/local/arm_linux_4.8 \
--prefix /usr/local/qt5.5.1 \
+-no-gcc-sysroot \
+-extprefix /usr/local/qt-5.5.1-arm-nuc970 \
+-rpath \
 -qpa linuxfb
-#-qreal float \
-#-no-compile-examples \
-#-nomake examples \
-#-xplatform linux-arm-nuc970-g++ \
+#-prefix /usr/local/qt-5.5.1-arm-nuc970 \
+
