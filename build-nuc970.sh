@@ -1,5 +1,5 @@
 #!/bin/bash
-
+TSLIB_PATH=~/tslib/install-tslib
 
 if [ -d qtbase ]; then
 	cp -R linux-arm-nuc970-g++ ./qtbase/mkspecs/devices
@@ -19,6 +19,8 @@ fi
 -no-gcc-sysroot \
 -extprefix /usr/local/qt-5.5.1-arm-nuc970 \
 -rpath \
--qpa linuxfb
+-qpa linuxfb \
+-I ${TSLIB_PATH}/include \
+-L ${TSLIB_PATH}/lib
 #-prefix /usr/local/qt-5.5.1-arm-nuc970 \
 
